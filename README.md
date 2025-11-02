@@ -1,4 +1,4 @@
-# Foodies 🍽️
+# Foodies 
 
 **Assignment:** 2
 
@@ -8,13 +8,13 @@
 
 ---
 
-## 📖 Overview
+## Overview
 **Foodies** is a simple, responsive website built using only **HTML** and **CSS**.  
 It’s designed as part of an assignment to practice webpage layout, structure, and styling. The site presents a modern food-themed landing page suitable for restaurants or food blogs.
 
 ---
 
-## 🚀 Features
+## Features
 - Clean and responsive layout  
 - Well-structured HTML for easy readability  
 - Stylish sections for menu, about, and contact  
@@ -23,7 +23,7 @@ It’s designed as part of an assignment to practice webpage layout, structure, 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **HTML5**  
 - **CSS3**  
 - **Google Fonts**  
