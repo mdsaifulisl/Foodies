@@ -19,7 +19,7 @@ It’s designed as part of an assignment to practice webpage layout, structure, 
 - Well-structured HTML for easy readability  
 - Stylish sections for menu, about, and contact  
 - Use of Google Fonts and Font Awesome icons  
-- Fully static — no JavaScript used  
+- Fully static no JavaScript used  
 
 ---
 
