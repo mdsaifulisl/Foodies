@@ -1,0 +1,213 @@
+/* mobile responsive */
+@media (max-width: 992px) {
+  /* hero start */
+  .hero {
+    padding-bottom: 0;
+  }
+  .hero::after {
+    height: 70%;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 0;
+  }
+  .hero-content .contant h1,
+  .hero-content .contant p {
+    text-align: center;
+  }
+
+  .hero-button {
+    text-align: center;
+  }
+
+  .barnds {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  /* Free Shopping Section */
+  .free-contant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    justify-items: center;
+  }
+
+  .free-cart1 {
+    display: contents;
+  }
+
+  .free-card {
+    width: 100%;
+    max-width: 320px;
+    justify-content: flex-start;
+  }
+  /* Free Shopping Section end */
+  /* Benefit Section */
+  .stars-section,
+  .benefit-section {
+    padding: 50px 0;
+  }
+  .stars-section .stars {
+    flex-direction: row;
+  }
+  .benefit,
+  .stars {
+    flex-direction: column;
+  }
+
+  .benefit-img img,
+  .stars-img img {
+    max-width: 100%;
+  }
+
+  .stars-stats {
+    justify-content: center;
+  }
+
+  .benefit-content h2,
+  .stars-content h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* header start */
+  .bars-phone {
+    display: block;
+  }
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    background-color: var(--light-color);
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  .nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav ul li a:hover::after {
+    display: none;
+  }
+  /* header end */
+
+  .hero-content .contant .button1 {
+    width: 100%;
+  }
+  .free-shopping {
+    padding-top: 50px;
+  }
+    .rating-badge,
+  .quality-badge {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    margin: 0;
+    height: 50px;
+    width: 90%;
+  }
+  .quality-badge {
+    bottom: 50px;
+  }
+
+  .hero-image {
+    text-align: center;
+  }
+
+  /* Free Shopping Section */
+  .free-contant {
+    gap: 20px;
+  }
+
+  .free-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-icon {
+    font-size: 24px;
+    padding: 12px;
+  }
+
+  .card-contant h5 {
+    font-size: 18px;
+  }
+
+  .card-contant p {
+    font-size: 14px;
+  }
+  /* Free Shopping Section end */
+  /* Features Section start */
+  .features-section .features-grid {
+    grid-template-columns: 1fr;
+    border: none;
+  }
+
+  .feature-card {
+    flex-direction: column !important;
+    min-height: auto;
+    border: none;
+    border-left: 3px solid var(--primary-color);
+    border-right: 3px solid var(--primary-color);
+  }
+
+  .feature-card:first-child {
+    border-top: 3px solid var(--primary-color);
+  }
+  .feature-card:last-child {
+    border-bottom: 3px solid var(--primary-color);
+  }
+
+  .feature-card:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .feature-card .content-box {
+    padding: 0px 30px;
+  }
+  .feature-2 .content-box,
+  .feature-3 .content-box {
+    background-color: var(--light-color) !important;
+  }
+  .feature-1 .content-box,
+  .feature-4 .content-box {
+    background-color: white !important;
+  }
+
+  .image-box {
+    height: 200px;
+  }
+
+  .feature-card:nth-child(2),
+  .feature-card:nth-child(4) {
+    flex-direction: column-reverse !important;
+  }
+
+  /* Features Section end */
+}
+
+@media (max-width: 576px) {
+  .stars-section,
+  .benefit-section {
+    padding: 30px 0;
+  }
+  .stars-stats h3 {
+    font-size: 22px;
+  }
+
+  .stars-stats p {
+    font-size: 14px;
+  }
+  .btn-start,
+  .btn-start .button1 {
+    width: 100%;
+  }
+}

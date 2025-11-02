@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --primary-color: #06c167;
+  --text-color: #1d1d1f;
+  --light-color: #e6f9f0;
+}
+
+/* Typography Scale */
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+h3 {
+  font-size: 45px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+p {
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.p {
+  font-size: 15px;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.text-color {
+  color: var(--text-color);
+}
+
+.light-color {
+  color: var(--light-color);
+}
+
+.light-color-bg {
+  background-color: var(--light-color);
+}
+
+.primary-color-bg {
+  background-color: var(--primary-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+/* button style */
+button {
+  font-size: 16px;
+  color: #ffffff;
+}
+.button1 {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.button2 {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* Mobile Responsive Typography */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 51px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 27px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .p {
+    font-size: 13px;
+  }
+}
